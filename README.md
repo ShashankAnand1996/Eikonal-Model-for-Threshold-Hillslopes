@@ -9,7 +9,7 @@
 - The code is presented as a *jupyter notebook*, which can be installed using pip as `pip install notebook` or using Conda `conda install -c conda-forge notebook`.
 - Required Python libraries are *numpy* *shapely* libraries, which can be installed using pip as `pip install numpy` and `pip install shapely`, respectively. 
 - The jupyter notebook also uses the *matplotlib* library, which can be installed as `conda install -c conda-forge matplotlib` or using Conda `python -m pip install -U matplotlib`.
-- File **Downstream_Boundary.npy** (2 \times N) in the repository is the array used as the x and y coordinates of the enclosing boundary.
+- File **Downstream_Boundary.npy** in the repository is the 2D array that provides the *x* and *y* coordinates of the enclosing boundary.
 
 # Code structure
 
@@ -18,7 +18,7 @@ Each number written in the list below explains the operations and functions for 
 2. Define the Python function for computing the erosion term implicitly using the D_infinity flow direction method and also define the Python function that updates the diffusion term implicitly using the LGMRES algorithm. 
 3. Initializing the coefficients, domain size, and model parameters to be used in the solver.
 4. Initializing the raster grid, boundary conditions, and the initial condition for the simulation run.
-5. *While* loop for the simulation run until the steady-state is reached.
+5. *While* loop for the simulation run until the steady state is reached.
 9. Save the elevation and drainage area arrays for plotting and further investigations.
 
 # Contact Us
