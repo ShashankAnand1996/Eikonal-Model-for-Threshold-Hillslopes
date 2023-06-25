@@ -13,13 +13,12 @@
 
 # Code structure
 
-Each number written in the list below explains the operations and functions for the particular Cell of the Jupyter Notebook.
-1. Import relevant packages from the above-mentioned libraries.
-2. Define the Python function for computing the erosion term implicitly using the D_infinity flow direction method and also define the Python function that updates the diffusion term implicitly using the LGMRES algorithm. 
-3. Initializing the coefficients, domain size, and model parameters to be used in the solver.
-4. Initializing the raster grid, boundary conditions, and the initial condition for the simulation run.
-5. *While* loop for the simulation run until the steady state is reached.
-9. Save the elevation and drainage area arrays for plotting and further investigations.
+Each number in the list below explains the operations and functions of the particular cell in the Jupyter Notebook.
+1. Import relevant packages from the libraries mentioned above.
+2. Get the input boundary (*x* and *y* coordinates), threshold angle, and the raster resolution. 
+3. Initialize the shapely polygon based on the boundary given and plot it.
+4&5. Use the defined polygon to create the eikonal topography and visualize it.
+6. Fill the elevation field outside the boundary with null values and visualize the final eikonal topography.
 
 # Contact Us
 
