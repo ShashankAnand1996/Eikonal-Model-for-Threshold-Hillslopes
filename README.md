@@ -19,7 +19,7 @@ Each number in the list below explains the operations and functions of the parti
 1. Import relevant packages from the libraries mentioned above.
 2. Get the input boundary (*x* and *y* coordinates), threshold angle, and the raster resolution. 
 3. Initialize the shapely polygon based on the boundary given and plot it.
-4&5. Use the defined polygon to create the eikonal topography and visualize it.
+4+5. Use the defined polygon to create the eikonal topography and visualize it.
 6. Fill the elevation field outside the boundary with null values and visualize the final eikonal topography.
 
 # Contact Us
