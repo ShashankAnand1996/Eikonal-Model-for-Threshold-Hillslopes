@@ -9,7 +9,9 @@
 - The code is presented as a *jupyter notebook*, which can be installed using pip as `pip install notebook` or using Conda `conda install -c conda-forge notebook`.
 - Required Python libraries are *numpy* *shapely* libraries, which can be installed using pip as `pip install numpy` and `pip install shapely`, respectively. 
 - The jupyter notebook also uses the *matplotlib* library, which can be installed as `conda install -c conda-forge matplotlib` or using Conda `python -m pip install -U matplotlib`.
-- File **Downstream_Boundary.npy** in the repository is the 2D array that provides the *x* and *y* coordinates of the enclosing boundary.
+
+# Input
+- A file providing the boundary condition for the model. As an example, file **Downstream_Boundary.npy** in the current repository is the 2D array that provides the *x* and *y* coordinates of the enclosing boundary.
 
 # Code structure
 
