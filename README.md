@@ -3,6 +3,10 @@
 - This Python code implements the eikonal model to compute the spatial organization of planar hillslopes bounded at a threshold angle.
 - The results obtained using this model have been tested for accuracy in diverse geologic settings and hydroclimatic conditions.
 - In terms of data requirement, the model needs solely the shape of the boundary enclosing the landscape to produce the topography.
+
+# Manuscript
+
+https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023GL105710 
   
 # Installation
 
